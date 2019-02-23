@@ -20,5 +20,6 @@ new Client({
     prefix: process.env.PREFIX,
     commandEditing: true,
     typing: true,
+    language: 'fr-FR',
     readyMessage: (client) => `Successfully initialized. Ready to serve ${client.guilds.size} guilds.`
 }).login();
