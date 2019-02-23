@@ -1,0 +1,16 @@
+{
+  "name": "zaphkiel",
+  "version": "1.0.0",
+  "description": "DiscordBOT powered by Synezia, built with Klasa",
+  "main": "src/app.js",
+  "scripts": {
+    "start": "node src/app.js"
+  },
+  "author": "Alexis M. (iSnkh)",
+  "license": "MIT",
+  "dependencies": {
+    "discord.js": "github:discordjs/discord.js",
+    "klasa": "github:dirigeants/klasa#master",
+    "dotenv": "^6.2.0"
+  }
+}
